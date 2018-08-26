@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/* ----- Colour ----- */
+
+bg-color-header {
+    background-color: rgb(255,255,255);
+}
+
+.bg-menu-active {
+    background-color: rgb(36, 41, 46);
+}
+
+.menu-active-color {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.bg-color-footer {
+    background-color: #fafafa;
+}
+
+
+
+/* ----- General ----- */
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+
+/* ----- Footer ----- */
+
+.footer-center {
+    text-align: center;
+}
+
+
+.footer-social {
+    padding-left: 20px;
+}
+
+.header-designed-by {
+    font-size: 10px;
+    padding: 10px;
+}
+
+.footer-style {
+    padding: 15px 0px 0px;
+}
+
+
+/* ----- Header ----- */
+
+.navbar-content-menu {
+     padding: 0px 15px;
+}
+
+.header-settings {
+    padding: 0px;
+}
+
