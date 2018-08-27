@@ -18,6 +18,10 @@ bg-color-header {
     background-color: #fafafa;
 }
 
+.bg-color-contact {
+    background-color: #ffffff;
+}
+
 
 
 /* ----- General ----- */
@@ -31,29 +35,6 @@ a:hover {
     font-weight: 600;
 }
 
-
-
-/* ----- Footer ----- */
-
-.footer-center {
-    text-align: center;
-}
-
-
-.footer-social {
-    padding-left: 20px;
-}
-
-.header-designed-by {
-    font-size: 10px;
-    padding: 10px;
-}
-
-.footer-style {
-    padding: 15px 0px 0px;
-}
-
-
 /* ----- Header ----- */
 
 .navbar-content-menu {
@@ -64,3 +45,235 @@ a:hover {
     padding: 0px;
 }
 
+.header-image-index {
+    background-image: url('/assets/images/architecture-buildings-business-417382.jpg');
+}
+
+.header-image-services {
+    background-image: url('/assets/images/adult-business-colleagues-1181625.jpg');
+}
+
+.header-image-who {
+    background-image: url('/assets/images/business-career-confidence-776615.jpg');
+}
+
+.header-image-contact {
+    background-image: url('/assets/images/agreement-business-businessmen-886465.jpg');
+}
+
+
+.header-image {
+    height: 130px;
+    width: 100%;
+    background-size: cover;
+    border: 0;
+}
+
+/* ----- Footer ----- */
+
+.footer {
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.footer-style {
+    padding: 10px 0px 10px;
+
+}
+
+.footer-center {
+    text-align: center;
+}
+
+.footer-social {
+    padding-left: 20px;
+}
+
+.footer-designed-by {
+    font-size: 10px;
+    padding: 10px;
+    margin: 0px;
+}
+
+/* ----- Who We Are ----- */
+
+.solicitors {
+    float: none;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.photo-shoot {
+    height: 220px;
+    border: 0;
+    margin: 10px;
+
+}
+
+.solicitors-name {
+    text-align: center;
+    font-size: 14;
+    font-weight: 400;
+}
+
+.solicitors-about {
+    text-align: center;
+    font-size: 12;
+    font-weight: 200;
+    margin: 10px 0px;
+}
+
+.solicitors-biography {
+    text-align: justify;
+    margin: 5px 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* ----- Contact ----- */
+
+.tube-image {
+    width:32px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.contact-info-item {
+    display: block;
+    margin-bottom: 3px;
+    clear: both;
+    max-width: 70%;
+}
+
+.key .value {
+    margin: 0;
+    display: inline-block;
+}
+
+
+.contact-info-item .key,
+.contact-info-item .value {
+    padding-right: 2px;
+}
+
+.contact-info-item .key p,
+.contact-info-item .value p {
+    margin: 0;
+}
+
+.contact-info-item .value a {
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.contact-info-item .key {
+    display: inline-block;
+    width: 30%;
+    margin-right: 8px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.contact-info-item .key p {
+    font-weight: 600;
+    
+}
+
+.contact-info-item .value {
+    float: none; 
+    display: table-cell;
+    max-width: 50%;
+}
+
+.text-center {
+    margin-top: 16px;
+}
+
+
+/* ----- Media Queries ----- */
+
+@media(min-width: 480px) {
+    .photo-shoot {
+        height: 250px;
+    }    
+}
+
+@media(min-width: 580px) {
+    .header-image {
+        height: 180px;
+        width: 100%;
+        background-size: cover;
+        border: 0;
+        margin-bottom: 15px;
+    }
+    .photo-shoot {
+        height: 280px;
+    }
+    .solicitors {
+        margin-top: 0;
+    }
+}
+
+@media(min-width: 768px) {
+    .contact-info-item .value {
+        display: inline-block;
+        position: relative;
+        width: 60%;
+    }
+    
+    .header-image {
+        height: 220px;
+        width: 100%;
+        background-size: cover;
+        border: 0;
+        margin-bottom: 20px;
+    }
+
+    .center-form {
+        padding-top: 10px;
+        margin: 0 auto;
+        max-width: 70%;
+    }
+    .footer-style {
+        padding: 15px 0px 15px;
+    }
+    
+    .footer {
+        margin-top: 15px;
+    }
+    .solicitors-biography {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+}
+
+@media(min-width: 992px) {
+    .header-image {
+        height: 250px;
+        width: 100%;
+        background-size: cover;
+        border: 0;
+        margin-bottom: 25px;
+    }
+
+    .footer {
+        margin-top: 20px;
+    }
+    
+    .footer-style {
+        padding: 20px 0px 20px;
+    }
+    .photo-shoot {
+        height: 350px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .photo-shoot {
+        height: 400px;
+    }
+}
