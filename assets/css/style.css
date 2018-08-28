@@ -95,6 +95,42 @@ a:hover {
     margin: 0px;
 }
 
+/* ----- Services ----- */
+
+.services {
+    display: inline-block;
+    float: none;
+    margin: 20px 15px;
+}
+
+.services-icon {
+    font-size: 150%;
+    text-align: center;
+    padding: 0;
+}
+
+.services-item h3 {
+    font-weight: 500;
+}
+
+.services-description-align {
+    padding: 0;
+}
+
+.services-photo-align {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.services-photos {
+    display: none;
+    border: 0;
+    height: 180px;
+    margin: auto;
+    padding: 0;
+}
+
 /* ----- Who We Are ----- */
 
 .solicitors {
@@ -125,7 +161,7 @@ a:hover {
 
 .solicitors-biography {
     text-align: justify;
-    margin: 5px 0px;
+    margin: 5px 10px;
     padding-right: 15px;
     padding-left: 15px;
 }
@@ -245,9 +281,16 @@ a:hover {
     .footer {
         margin-top: 15px;
     }
+    
+    .services-photos {
+        display: block;
+        margin: 0 auto;
+    }
+    
     .solicitors-biography {
         padding-right: 25px;
         padding-left: 25px;
+        margin: 5px 0px;
     }
 }
 
@@ -267,6 +310,9 @@ a:hover {
     .footer-style {
         padding: 20px 0px 20px;
     }
+    .services-photos {
+        height: 220px;
+    }    
     .photo-shoot {
         height: 350px;
     }
