@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,400,500,600,700');
 
 /* ----- Colour ----- */
 
@@ -28,12 +28,16 @@ bg-color-header {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
+
 
 a:hover {
     text-decoration: none;
     font-weight: 600;
+    color: inherit;
 }
+
 
 /* ----- Header ----- */
 
@@ -93,6 +97,49 @@ a:hover {
     font-size: 10px;
     padding: 10px;
     margin: 0px;
+}
+
+/* ----- Home ----- */
+
+.home-title {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.home-align-center {
+    text-align: center;
+}
+
+.home-icons {
+    font-size: 100px;
+    text-align: center;
+}    
+
+.home-services {
+    color: #ff0000;
+}
+
+.home-who {
+    color: #078a08;
+}
+
+.home-contact {
+    color: #0000ff;
+}
+
+.video-youtube {
+	margin: auto;
+    width: 100%;
+	height: 315px;
+}
+
+.video {
+	width: 100%;
+	display: flex;
+	margin-bottom: 10px;
 }
 
 /* ----- Services ----- */
@@ -321,5 +368,9 @@ a:hover {
 @media(min-width: 1200px) {
     .photo-shoot {
         height: 400px;
+    }
+    .video {
+        width: 560px;
+        height: 315px;
     }
 }
