@@ -50,19 +50,19 @@ a:hover {
 }
 
 .header-image-index {
-    background-image: url('/assets/images/architecture-buildings-business-417382.jpg');
+    background-image: url('/assets/images/headers/home.jpg');
 }
 
 .header-image-services {
-    background-image: url('/assets/images/adult-business-colleagues-1181625.jpg');
+    background-image: url('/assets/images/headers/services.jpg');
 }
 
 .header-image-who {
-    background-image: url('/assets/images/business-career-confidence-776615.jpg');
+    background-image: url('/assets/images/headers/who.jpg');
 }
 
 .header-image-contact {
-    background-image: url('/assets/images/agreement-business-businessmen-886465.jpg');
+    background-image: url('/assets/images/headers/contact.jpg');
 }
 
 
@@ -133,11 +133,14 @@ a:hover {
 .video-youtube {
 	margin: auto;
     width: 100%;
-	height: 315px;
+    height: 315px;
+    border: 0;
 }
 
 .video {
 	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin-bottom: 10px;
 }
@@ -195,13 +198,13 @@ a:hover {
 
 .solicitors-name {
     text-align: center;
-    font-size: 14;
+    font-size: 35px;
     font-weight: 400;
 }
 
 .solicitors-about {
     text-align: center;
-    font-size: 12;
+    font-size: 25px;
     font-weight: 200;
     margin: 10px 0px;
 }
