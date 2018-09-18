@@ -50,19 +50,19 @@ a:hover {
 }
 
 .header-image-index {
-    background-image: url('/assets/images/headers/home.jpg');
+    background-image: url("../images/headers/home.jpg");
 }
 
 .header-image-services {
-    background-image: url('/assets/images/headers/services.jpg');
+    background-image: url("../images/headers/services.jpg");
 }
 
 .header-image-who {
-    background-image: url('/assets/images/headers/who.jpg');
+    background-image: url("../images/headers/who.jpg");
 }
 
 .header-image-contact {
-    background-image: url('/assets/images/headers/contact.jpg');
+    background-image: url('../images/headers/contact.jpg');
 }
 
 
