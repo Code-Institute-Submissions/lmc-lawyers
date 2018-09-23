@@ -1,81 +1,61 @@
-# Your Project's Name
+# LMC Solicitors Website
 
-One or two paragraphs providing an overview of your project.
+This is a project for a hypotetical legal firm in the heart of the city of London, specialised in family and imigration law. 
 
-Essentially, this part is your sales pitch.
+The firm will be run by two experienced lawyers that have decided to open their own firm in order to help people and their families.
+
  
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+Following the design in the industry, the webpages were designed to be clean, unclutered and informative. It is not intended to direct sell a product online but  to inform a prospective customer of the services provided by the firm and way of contact.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+- As a prospective client, I want to ensure the firm is able to work on my family case prior to contact the office and book an appointment.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+### Wireframes
+
+![home-page.png](:storage/217e4b65-bbe5-4f66-b0ed-999bb1b088e3/0a68e6bf.png)
+![services.png](:storage/217e4b65-bbe5-4f66-b0ed-999bb1b088e3/f34f84c5.png)
+![who.png](:storage/217e4b65-bbe5-4f66-b0ed-999bb1b088e3/642b9ede.png)
+![contact.png](:storage/217e4b65-bbe5-4f66-b0ed-999bb1b088e3/1d46c641.png)
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+The Home Page has 3 CTA's that lead to other sections of the site, namely "Our Services", "Who We Are" and "Contact Us" and 2 youtube videos with testimonies of immigrants, one of the core services of the firm.
+
+The Our Services page describes the services provided by the firm.
+
+The Who We Are page tells a little bit about the 2 office partners.
+
+The Contact Us page contain the firm's number and a contact form.
  
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 ### Features Left to Implement
-- Another feature idea
+- A functional contact form.
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- [Bootstrap](https://getbootstrap.com/)
+    - The project uses **Bootstrap v4.1** to ensure a responsive design and a mobile first aproach.
 
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+All pages were tested for errors using the [W3C Markup Validation Service](https://validator.w3.org/) and the CSS file was tested on the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Also, all pages and styles were tested on the latest versions of Chrome, Safari (versions 11 and 12) and Firefox alonside Safari and Chrome on iOS.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+There were no issues in depoying the project to GitHub and it should run smoothly on GitHub Pages.
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for the sections were provided by my wife Luciane Mallmann, with the exception of the second partner of the office, John Doe, in the Who We Are page, which were taken from an Lorem Ipsum generator: [Lorem Ipsum - All the facts - Lipsum generator](https://www.lipsum.com/)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from [Free stock photos · Pexels](https://www.pexels.com)
+- The youtube videos were found using the immigration keyword search.
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from my wife Luciane Mallmann, which her dream is to open her own firm and help vulnerable people and their families. 
