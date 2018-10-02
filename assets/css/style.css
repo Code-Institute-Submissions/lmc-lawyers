@@ -2,12 +2,10 @@
 
 /* ----- Colour ----- */
 
-bg-color-header {
-    background-color: rgb(255,255,255);
-}
+
 
 .bg-menu-active {
-    background-color: rgb(36, 41, 46);
+    background-color: #606163;
 }
 
 .menu-active-color {
@@ -37,7 +35,12 @@ a {
 
 a:hover {
     text-decoration: none;
-    font-weight: 600;
+    color: inherit;
+}
+
+li a:hover {
+    text-decoration: none;
+    font-weight: 400;
     color: inherit;
 }
 
@@ -149,8 +152,8 @@ h4 {
 
 .video {
 	width: 100%;
-	display: -webkit-box;
-	display: -ms-flexbox;
+/*	display: -webkit-box;
+	display: -ms-flexbox; */
 	display: flex;
 	margin-bottom: 10px;
 }
