@@ -16,16 +16,15 @@
     background-color: #fafafa;
 }
 
-.bg-color-contact {
-    background-color: #ffffff;
-}
-
-
-
 /* ----- General ----- */
 
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+header,
+footer {
+    max-width: 1600px;
 }
 
 a {
@@ -49,7 +48,14 @@ h2,
 h3,
 h4 {
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-size: 32px;
+}
+
+.page-section-title {
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
 }
 
 /* ----- Header ----- */
@@ -207,6 +213,7 @@ h4 {
     height: 220px;
     border: 0;
     margin: 10px;
+    padding-bottom: 30px;
 
 }
 
@@ -299,7 +306,7 @@ h4 {
 @media(min-width: 480px) {
     .photo-shoot {
         height: 250px;
-    }    
+    }
 }
 
 @media(min-width: 580px) {
@@ -315,6 +322,9 @@ h4 {
     }
     .solicitors {
         margin-top: 0;
+    }
+    .solicitors-biography {
+        padding-bottom: 15px;
     }
 }
 
@@ -352,7 +362,7 @@ h4 {
     }
     
     .solicitors-biography {
-        padding-right: 25px;
+        padding-right: 0;
         padding-left: 25px;
         margin: 5px 0px;
     }
