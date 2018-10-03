@@ -158,8 +158,6 @@ h4 {
 
 .video {
 	width: 100%;
-/*	display: -webkit-box;
-	display: -ms-flexbox; */
 	display: flex;
 	margin-bottom: 10px;
 }
@@ -300,6 +298,17 @@ h4 {
     margin-top: 16px;
 }
 
+.contact-details {
+    font-size: 1rem;
+}
+
+form > input {
+    margin-bottom: 5px;
+}
+
+form > textarea {
+    margin-bottom: 5px;
+}
 
 /* ----- Media Queries ----- */
 
@@ -326,14 +335,14 @@ h4 {
     .solicitors-biography {
         padding-bottom: 15px;
     }
-}
-
-@media(min-width: 768px) {
     .contact-info-item .value {
         display: inline-block;
         position: relative;
         width: 60%;
     }
+}
+
+@media(min-width: 768px) {
     
     .header-image {
         height: 220px;
