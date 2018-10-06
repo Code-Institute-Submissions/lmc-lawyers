@@ -165,14 +165,22 @@ h4 {
 /* ----- Services ----- */
 
 .services {
-    display: inline-block;
-    float: none;
-    margin: 20px 15px;
+    margin: 20px 5px;
+}
+
+.services-title {
+    margin: 10px 0px 20px 0px;
+    padding: 0;
+    padding-left: 2px;
 }
 
 .services-icon {
     font-size: 150%;
-    text-align: center;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.services-item {
     padding: 0;
 }
 
@@ -183,20 +191,40 @@ h4 {
 
 .services-description-align {
     padding: 0;
+    margin: auto;
+}
+
+.services-list-left {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.services-list-right {
+    padding-left: 20px;
+    padding-right: 10px;
 }
 
 .services-photo-align {
+    display: flex;
+    border: 0;
     padding: 0;
-    margin: 0;
-    
 }
 
-.services-photos {
-    display: none;
-    border: 0;
-    height: 180px;
+ .services-photos {
+    flex: 0 0 274;
     margin: auto;
-    padding: 0;
+    height: 207px;
+    justify-content: center;
+    align-content: center;   
+}
+.services-description {
+    padding-right: 15px;
+    max-width: 90%;
+}
+
+.services-flex {
+    margin: 5px;
+  
 }
 
 /* ----- Who We Are ----- */
@@ -312,9 +340,21 @@ form > textarea {
 
 /* ----- Media Queries ----- */
 
-@media(min-width: 480px) {
+@media(min-width: 320px) {
     .photo-shoot {
         height: 250px;
+    }
+
+    .services-flex {
+        flex-direction: column;
+    }
+
+    .services-flex .services-description-align {
+        order: 2;
+    }
+
+    .services-flex .services-photo-align {
+        order: 1;
     }
 }
 
@@ -365,15 +405,22 @@ form > textarea {
         margin-top: 15px;
     }
     
-    .services-photos {
-        display: block;
-        margin: 0 auto;
-    }
-    
     .solicitors-biography {
         padding-right: 0;
         padding-left: 25px;
         margin: 5px 0px;
+    }
+
+    .services-flex {
+        flex-direction: row;
+    }
+    
+    .services-flex .services-description-align {
+        order: 1;
+    }
+
+    .services-flex .services-photo-align {
+        order: 2;
     }
 }
 
