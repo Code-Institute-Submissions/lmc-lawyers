@@ -4,9 +4,8 @@ This is a project for a hypotetical legal firm in the heart of the city of Londo
 
 The firm will be run by two experienced lawyers that have decided to open their own firm in order to help people and their families.
 
- 
 ## UX
- 
+
 Following the design in the industry, the webpages were designed to be clean, unclutered and informative. It is not intended to direct sell a product online but  to inform a prospective customer of the services provided by the firm and way of contact.
 
 - As a prospective client, I want to ensure the firm is able to work on my family case prior to contact the office and book an appointment.
@@ -27,15 +26,15 @@ The Our Services page describes the services provided by the firm.
 The Who We Are page tells a little bit about the 2 office partners.
 
 The Contact Us page contain the firm's number and a contact form.
- 
+
 ### Features Left to Implement
+
 - A functional contact form.
 
 ## Technologies Used
 
 - [Bootstrap](https://getbootstrap.com/)
-    - The project uses **Bootstrap v4.1** to ensure a responsive design and a mobile first aproach.
-
+  - The project uses **Bootstrap v4.1** to ensure a responsive design and a mobile first aproach.
 
 ## Testing
 
@@ -50,12 +49,14 @@ There were no issues in depoying the project to GitHub and it should run smoothl
 ## Credits
 
 ### Content
-- The text for the sections were provided by my wife Luciane Mallmann, with the exception of the second partner of the office, John Doe, in the Who We Are page, which were taken from an Lorem Ipsum generator: [Lorem Ipsum - All the facts - Lipsum generator](https://www.lipsum.com/)
+
+- The text for the sections were provided by my wife with some adaptation from profile templates from Google.
 
 ### Media
+
 - The photos used in this site were obtained from [Free stock photos · Pexels](https://www.pexels.com)
 - The youtube videos were found using the immigration keyword search.
 
 ### Acknowledgements
 
-- I received inspiration for this project from my wife Luciane Mallmann, which her dream is to open her own firm and help vulnerable people and their families. 
+- I received inspiration for this project from my wife Luciane Mallmann, which her dream is to open her own firm and help vulnerable people and their families.

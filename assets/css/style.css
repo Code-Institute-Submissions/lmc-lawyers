@@ -17,7 +17,7 @@
 /* ----- General ----- */
 
 
-body {
+*, html, body {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -73,19 +73,19 @@ h4 {
 }
 
 .header-image-index {
-    background-image: url("../images/headers/home.jpg");
+    background-image: url("../images/headers/home-small.jpg");
 }
 
 .header-image-services {
-    background-image: url("../images/headers/services.jpg");
+    background-image: url("../images/headers/services-small.jpg");
 }
 
 .header-image-who {
-    background-image: url("../images/headers/who.jpg");
+    background-image: url("../images/headers/who-small.jpg");
 }
 
 .header-image-contact {
-    background-image: url('../images/headers/contact.jpg');
+    background-image: url('../images/headers/contact-small.jpg');
 }
 
 /* Style the header images */
@@ -181,6 +181,10 @@ h4 {
     padding: 0;
 }
 
+.services-item > h2 {
+    padding-left: 10px;
+}
+
 .services-item h2 {
     font-weight: 500;
     font-size: 1.5rem;
@@ -196,11 +200,6 @@ h4 {
     padding-right: 20px;
 }
 
-.services-list-right {
-    padding-left: 20px;
-    padding-right: 10px;
-}
-
 .services-photo-align {
     display: flex;
     border: 0;
@@ -208,15 +207,17 @@ h4 {
 }
 
  .services-photos {
-    flex: 0 0 274;
     margin: auto;
     height: 207px;
     justify-content: center;
     align-content: center;   
 }
+
 .services-description {
-    padding-right: 15px;
-    max-width: 90%;
+    padding: 10px;
+    max-width: 100%;
+    text-align: justify;
+
 }
 
 .services-flex {
@@ -356,6 +357,23 @@ form > textarea {
 }
 
 @media(min-width: 580px) {
+
+    .header-image-index {
+        background-image: url("../images/headers/home-medium.jpg");
+    }
+
+    .header-image-services {
+        background-image: url("../images/headers/services-medium.jpg");
+    }
+
+    .header-image-who {
+        background-image: url("../images/headers/who-medium.jpg");
+    }
+
+    .header-image-contact {
+        background-image: url('../images/headers/contact-medium.jpg');
+    }
+
     .header-image {
         height: 180px;
         width: 100%;
@@ -381,6 +399,22 @@ form > textarea {
 
 @media(min-width: 768px) {
     
+    .header-image-index {
+        background-image: url("../images/headers/home-large.jpg");
+    }
+
+    .header-image-services {
+        background-image: url("../images/headers/services-large.jpg");
+    }
+
+    .header-image-who {
+        background-image: url("../images/headers/who-large.jpg");
+    }
+
+    .header-image-contact {
+        background-image: url('../images/headers/contact-large.jpg');
+    }
+
     .header-image {
         height: 220px;
         width: 100%;
@@ -446,6 +480,23 @@ form > textarea {
 }
 
 @media(min-width: 1200px) {
+
+    .header-image-index {
+        background-image: url("../images/headers/home-extra-large.jpg");
+    }
+
+    .header-image-services {
+        background-image: url("../images/headers/services-extra-large.jpg");
+    }
+
+    .header-image-who {
+        background-image: url("../images/headers/who-extra-large.jpg");
+    }
+
+    .header-image-contact {
+        background-image: url('../images/headers/contact-extra-large.jpg');
+    }
+
     .photo-shoot {
         height: 400px;
     }
@@ -453,4 +504,5 @@ form > textarea {
         width: 560px;
         height: 315px;
     }
+
 }
