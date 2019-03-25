@@ -6,7 +6,7 @@ The firm will be run by two experienced lawyers that have decided to open their 
 
 ## Web Address
 
-![LMC Solicitors](https://gbronca.github.io/lmc-lawyers/)
+[LMC Solicitors](https://gbronca.github.io/lmc-lawyers/)
 
 ## UX
 
@@ -48,7 +48,7 @@ Also, all pages and styles were tested on the latest versions of Chrome, Safari 
 
 ## Deployment
 
-There were no issues in depoying the project to GitHub and it should run smoothly on GitHub Pages. ![LMC Solicitors](https://gbronca.github.io/lmc-lawyers/)
+There were no issues in depoying the project to GitHub and it should run smoothly on GitHub Pages. [LMC Solicitors](https://gbronca.github.io/lmc-lawyers/)
 
 ## Credits
 
