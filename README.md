@@ -1,8 +1,12 @@
 # LMC Solicitors Website
 
-This is a project for a hypotetical legal firm in the heart of the city of London, specialised in family and imigration law. 
+This is a project for a hypotetical legal firm in the heart of the city of London, specialised in family and imigration law.
 
 The firm will be run by two experienced lawyers that have decided to open their own firm in order to help people and their families.
+
+## Web Address
+
+![LMC Solicitors](https://gbronca.github.io/lmc-lawyers/)
 
 ## UX
 
@@ -12,10 +16,10 @@ Following the design in the industry, the webpages were designed to be clean, un
 
 ### Wireframes
 
-![home-page.png](:storage/217e4b65-bbe5-4f66-b0ed-999bb1b088e3/0a68e6bf.png)
-![services.png](:storage/217e4b65-bbe5-4f66-b0ed-999bb1b088e3/f34f84c5.png)
-![who.png](:storage/217e4b65-bbe5-4f66-b0ed-999bb1b088e3/642b9ede.png)
-![contact.png](:storage/217e4b65-bbe5-4f66-b0ed-999bb1b088e3/1d46c641.png)
+![home-page.png](/assets/wireframes/home-page.png)
+![services.png](/assets/wireframes/services.png)
+![who.png](/assets/wireframes/who.png)
+![contact.png](/assets/wireframes/contact.png)
 
 ## Features
 
@@ -44,7 +48,7 @@ Also, all pages and styles were tested on the latest versions of Chrome, Safari 
 
 ## Deployment
 
-There were no issues in depoying the project to GitHub and it should run smoothly on GitHub Pages.
+There were no issues in depoying the project to GitHub and it should run smoothly on GitHub Pages. ![LMC Solicitors](https://gbronca.github.io/lmc-lawyers/)
 
 ## Credits
 
